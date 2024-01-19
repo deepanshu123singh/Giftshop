@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 400px) {
+
+    .sherar .box{
+        filter: blur(8px);
+       -webkit-filter: blur(8px);
+    }
+    h2{
+        text-align: center;
+    }
+    h4{
+        text-align: center;
+    }
+    .sz{
+        font-size: 12px;
+    }
+
+}
+
+
+.sherar {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-image: url(lady00.png);
+    background-repeat: no-repeat;
+    background-size: 520px 400px;
+    background-position: 10% 120%;
+}
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: right;
+    font-size: 20px;
+}
+
+.jai {
+    background-color: rgb(233, 23, 23);
+    border: 1px solid red;
+    color: white;
+    padding: 15px;
+    margin-left: 45%;
+}
+
+.jai:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    transition: 400ms;
+}
+
+.explore {
+    background-color: rgb(233, 23, 23);
+    border: 1px solid red;
+    color: white;
+    padding: 15px;
+}
+
+.explore:hover {
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    transition: 400ms;
+}
+
+.callout {
+    width: 170px;
+    margin-left: 300px;
+    margin-top: -600px;
+}
+
+
+.why {
+    width: 100%;
+    height: 100vh;
+}
+
+.lol {
+    width: 300px;
+    background-color:  #eee;
+    position: relative;
+}
+
+.content h1 {
+    color: #0e0d0d;
+    text-align: center;
+
+}
+
+.content p {
+    color: #1b1818;
+    text-align: center;
+}
+
+
+ .jo{
+    background-color: #eee;
+}
+
